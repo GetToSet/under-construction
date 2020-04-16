@@ -1,0 +1,19 @@
+{
+  "name": "under-construction",
+  "version": "1.0.0",
+  "description": "A graceful site for \"Under Construction\"",
+  "author": "Bunny Wong <bunnnywong@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "@primer/css": "^14.3.0",
+    "gulp-embed-svg": "^1.2.0",
+    "jquery": "^3.5.0",
+    "parallax-js": "^3.1.0"
+  }
+}
