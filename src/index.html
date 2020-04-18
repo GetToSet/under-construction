@@ -31,7 +31,7 @@
       <div
         class="clearfix container-lg pt-5 height-full d-flex flex-column flex-items-center flex-justify-center px-4"
       >
-        <div class="h1 mb-5">
+        <div id="splash-title" class="h1 mb-6">
           Site under construction, coming soon...
         </div>
         <img
@@ -64,5 +64,18 @@
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/parallax.min.js"></script>
     <script src="./assets/js/main.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-153778851-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-153778851-4");
+    </script>
   </body>
 </html>

@@ -1,0 +1,27 @@
+@import "../../node_modules/@primer/css/base/index.scss";
+@import "./fonts.scss";
+@import "./dark-support.scss";
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+
+  a {
+    color: var(--color-link);
+  }
+
+  footer p {
+    margin-bottom: 4px;
+  }
+
+  #splash-title {
+    font-family: 'Baloo 2', $body-font;
+    font-weight: 400 !important;
+  }
+
+  #splash {
+    .term {
+      fill: var(--color-term) !important;
+    }
+  }
+}

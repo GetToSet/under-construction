@@ -11,7 +11,7 @@ function clean() {
 }
 
 function pages() {
-  return src(["./src/*.html"])
+  return src(["./src/*.html", "src/*.ico"])
     .pipe(
       embedSvg({
         selectors: ".inline-svg",
@@ -29,7 +29,7 @@ function assets() {
 }
 
 function css() {
-  return src(["./src/scss/*.scss"])
+  return src(["./src/scss/main.scss"])
     .pipe(sass())
     .pipe(dest("./dist/css/"))
     .pipe(browserSync.stream());
