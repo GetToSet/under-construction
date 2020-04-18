@@ -1,47 +1,5 @@
-@import "../../node_modules/@primer/css/base/index.scss";
-@import "../../node_modules/@primer/css/utilities/index.scss";
 @import "../../node_modules/@primer/css/header/index.scss";
 @import "../../node_modules/@primer/css/layout/index.scss";
 
-.mr-auto {
-  margin-right: auto !important;
-}
-
-.ml-auto {
-  margin-left: auto !important;
-}
-
-body {
-  background: var(--color-background);
-  color: var(--color-text);
-
-  a {
-    color: var(--color-link);
-  }
-
-  footer p {
-    margin-bottom: 4px;
-  }
-
-  #splash {
-    .term {
-      fill: var(--color-term) !important;
-    }
-  }
-}
-
-:root {
-  --color-background: #{$blue-000};
-  --color-text: #{$text-gray-dark};
-  --color-term: #000000;
-  --color-link: #{$text-blue};
-}
-
-@media screen and (prefers-color-scheme: dark) {
-  :root {
-    --color-background: #{$blue-900};
-    --color-text: #{$blue-200};
-    --color-term: #ffffff;
-    --color-link: #{$blue-300};
-  }
-}
+@import "./utils.scss";
+@import "./page.scss";
