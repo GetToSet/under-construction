@@ -1,8 +1,6 @@
 # "Under Construction" site
 
-A graceful site for "Under Construction".
-
-**Demo Site: [labs.busybunny.me](https://labs.busybunny.me)**
+A beautiful site for showing "Under Construction".
 
 ## Supported Features
 
@@ -25,7 +23,3 @@ A graceful site for "Under Construction".
 ## License
 
 - [MIT](./license.md)
-
-## Note
-
-These files are specific to [labs.busybunny.me](https://labs.busybunny.me), which contains [Google Analytics](http://analytics.google.com/) code, please remove it before deployment.

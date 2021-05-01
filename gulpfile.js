@@ -16,6 +16,7 @@ function pages() {
       embedSvg({
         selectors: ".inline-svg",
         root: "./src",
+        xmlMode: false,
       })
     )
     .pipe(dest("./dist/"))
