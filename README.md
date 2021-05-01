@@ -1,6 +1,6 @@
 # "Under Construction" site
 
-A beautiful site for showing "Under Construction".
+A [beautiful site](https://static.ethanwong.me/under-construction/) for showing "Under Construction".
 
 ## Supported Features
 
