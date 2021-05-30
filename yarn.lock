@@ -1791,7 +1791,7 @@ gulp-cli@^2.2.0:
     v8flags "^3.2.0"
     yargs "^7.1.0"
 
-gulp-embed-svg@^1.2.0:
+gulp-embed-svg@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/gulp-embed-svg/-/gulp-embed-svg-1.4.0.tgz#eb8d67ead780fed6a092c01b8488455d789b78e2"
   integrity sha512-X0MIdi1Me08LqQmnCs1jwwAO5IQOJ7iQOoE2j7vArEWVI9bingQr3msaGHkFjybap0pPAFv4Iv8yiXjeUUbiDw==
@@ -4329,9 +4329,9 @@ wrappy@1:
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
 ws@~7.4.2:
-  version "7.4.5"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.5.tgz#a484dd851e9beb6fdb420027e3885e8ce48986c1"
-  integrity sha512-xzyu3hFvomRfXKH8vOFMU3OguG6oOvhXMo3xsGy3xWExqaM2dxBbVxuD99O7m3ZUFMvvscsZDqxfgMaRr/Nr1g==
+  version "7.4.6"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
+  integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
 
 xmlhttprequest-ssl@~1.5.4:
   version "1.5.5"
