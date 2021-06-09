@@ -920,9 +920,9 @@ css-select@^4.1.2:
     nth-check "^2.0.0"
 
 css-what@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/css-what/-/css-what-5.0.0.tgz#f0bf4f8bac07582722346ab243f6a35b512cfc47"
-  integrity sha512-qxyKHQvgKwzwDWC/rGbT821eJalfupxYW2qbSJSAtdSTimsr/MlaGONoNLllaUPZWf8QnbcKM/kPVYUQuEKAFA==
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/css-what/-/css-what-5.0.1.tgz#3efa820131f4669a8ac2408f9c32e7c7de9f4cad"
+  integrity sha512-FYDTSHb/7KXsWICVsxdmiExPjCfRC4qRFBdVwv7Ax9hMnvMmEjP9RfxTEZ3qPZGmADDn2vAKSo9UcN1jKVYscg==
 
 currently-unhandled@^0.4.1:
   version "0.4.1"
@@ -1791,7 +1791,7 @@ gulp-cli@^2.2.0:
     v8flags "^3.2.0"
     yargs "^7.1.0"
 
-gulp-embed-svg@^1.2.0:
+gulp-embed-svg@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/gulp-embed-svg/-/gulp-embed-svg-1.4.0.tgz#eb8d67ead780fed6a092c01b8488455d789b78e2"
   integrity sha512-X0MIdi1Me08LqQmnCs1jwwAO5IQOJ7iQOoE2j7vArEWVI9bingQr3msaGHkFjybap0pPAFv4Iv8yiXjeUUbiDw==
