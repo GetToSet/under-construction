@@ -1791,10 +1791,10 @@ gulp-cli@^2.2.0:
     v8flags "^3.2.0"
     yargs "^7.1.0"
 
-gulp-embed-svg@^1.2.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/gulp-embed-svg/-/gulp-embed-svg-1.4.0.tgz#eb8d67ead780fed6a092c01b8488455d789b78e2"
-  integrity sha512-X0MIdi1Me08LqQmnCs1jwwAO5IQOJ7iQOoE2j7vArEWVI9bingQr3msaGHkFjybap0pPAFv4Iv8yiXjeUUbiDw==
+gulp-embed-svg@^1.4.0:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/gulp-embed-svg/-/gulp-embed-svg-1.4.1.tgz#438b491d837aef5fa86fc613dbc7491eadcf5754"
+  integrity sha512-DDpb9e5y9eZ35Tx/9re217Gp21E5NikDcc79YQmwxd4XEWNq8xmaD+2nxsuMfe82s38q2Quc6YorGCdEYdr27w==
   dependencies:
     cheerio "^1.0.0-rc.5"
     plugin-error "^1.0.1"
@@ -3041,9 +3041,9 @@ path-is-absolute@^1.0.0:
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-root-regex@^0.1.0:
   version "0.1.2"
