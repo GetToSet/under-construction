@@ -1791,10 +1791,10 @@ gulp-cli@^2.2.0:
     v8flags "^3.2.0"
     yargs "^7.1.0"
 
-gulp-embed-svg@^1.2.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/gulp-embed-svg/-/gulp-embed-svg-1.4.0.tgz#eb8d67ead780fed6a092c01b8488455d789b78e2"
-  integrity sha512-X0MIdi1Me08LqQmnCs1jwwAO5IQOJ7iQOoE2j7vArEWVI9bingQr3msaGHkFjybap0pPAFv4Iv8yiXjeUUbiDw==
+gulp-embed-svg@^1.4.0:
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/gulp-embed-svg/-/gulp-embed-svg-1.4.7.tgz#125e1e42c9828b8c1be70161e2f6e89abdfc11d3"
+  integrity sha512-BQMt9HXihOcyOFRmMt+9So0nrn9yBz5LitU+TkiBrJ6DkG8r3N710gULP7i005kWlnB3XG3s2x90his9LfI8GQ==
   dependencies:
     cheerio "^1.0.0-rc.5"
     plugin-error "^1.0.1"
@@ -2607,9 +2607,9 @@ minimatch@^3.0.2, minimatch@^3.0.4, minimatch@~3.0.2:
     brace-expansion "^1.1.7"
 
 minimist@^1.1.3, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 mitt@^1.1.3:
   version "1.2.0"
