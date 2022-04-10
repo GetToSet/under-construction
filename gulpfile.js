@@ -1,7 +1,7 @@
 "use strict";
 
 const { src, dest, parallel, series, watch } = require("gulp");
-const sass = require("gulp-sass");
+const sass = require("gulp-sass")(require('sass'));
 const browserSync = require("browser-sync");
 const del = require("del");
 const embedSvg = require("gulp-embed-svg");
