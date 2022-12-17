@@ -6,31 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Under Construction</title>
     <link rel="stylesheet" href="./css/main.css" type="text/css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400&display=swap");
+    </style>
   </head>
-  <body class="d-flex flex-column">
-    <div class="Header width-full">
-      <a href="#" class="Header-link f4 d-flex flex-items-center mr-auto">
-        <span>Under Construction</span>
-      </a>
-      <div class="Header-item">
-        <a href="https://ethanwong.me" class="Header-link">Home</a>
+  <body
+    class="h-screen flex flex-col bg-sky-50 dark:bg-sky-900 text-gray-900 dark:text-sky-200"
+  >
+    <nav class="bg-gray-800 z-10">
+      <div class="relative flex h-12 mx-2 items-center justify-between">
+        <a href="#" class="text-white px-4 py-2 rounded-md text-sm font-medium"
+          >Under Construction</a
+        >
+        <a
+          href="https://ethanwong.me"
+          class="text-gray-300 hover:bg-gray-700 hover:text-white px-4 py-2 rounded-md text-sm font-medium ml-auto"
+          >Home</a
+        >
       </div>
-    </div>
-    <main class="height-full">
+    </nav>
+    <main class="h-full">
       <div
-        class="clearfix container-lg pt-5 height-full d-flex flex-column flex-items-center flex-justify-center px-4"
+        class="container mx-auto pt-8 h-full flex flex-col items-center justify-center px-6"
       >
-        <div id="splash-title" class="h1 mb-6">
+        <div id="splash-title" class="text-2xl mb-16">
           Site under construction, coming soon...
         </div>
         <img
           id="splash"
-          class="width-full inline-svg overflow-visible"
+          class="w-full inline-svg overflow-visible"
           src="./assets/images/inline/splash.svg"
         />
       </div>
     </main>
-    <footer class="footer width-full text-center mb-3">
+    <footer class="footer w-full text-center mb-4">
       <p>
         Copyright ©
         <a
@@ -43,11 +52,10 @@
       </p>
       <p>
         Illustration by
-        <a href="https://undraw.co/" alt="unDraw" title="unDraw">unDraw</a>.
+        <a href="https://undraw.co/" alt="unDraw" title="unDraw">unDraw</a>
       </p>
     </footer>
-    <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/parallax.min.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/main.js" defer></script>
   </body>
 </html>

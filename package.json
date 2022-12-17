@@ -1,20 +1,21 @@
 {
   "name": "under-construction",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A graceful site for \"Under Construction\"",
-  "author": "Bunny Wong <bunnnywong@gmail.com>",
+  "author": "Ethan Wong <bunnnywong@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "autoprefixer": "^10.4.13",
     "browser-sync": "^2.27.10",
-    "del": "^6.1.1",
+    "cssnano": "^5.1.14",
+    "del": "^6.1.0",
     "gulp": "^4.0.2",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.53.0"
+    "gulp-embed-svg": "^1.4.8",
+    "gulp-postcss": "^9.0.1",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
   },
   "dependencies": {
-    "@primer/css": "^15.2.0",
-    "gulp-embed-svg": "^1.4.8",
-    "jquery": "^3.6.0",
     "parallax-js": "^3.1.0"
   }
 }

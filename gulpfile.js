@@ -1,10 +1,10 @@
 "use strict";
 
 const { src, dest, parallel, series, watch } = require("gulp");
-const sass = require("gulp-sass")(require('sass'));
 const browserSync = require("browser-sync");
 const del = require("del");
 const embedSvg = require("gulp-embed-svg");
+const postcss = require("gulp-postcss");
 
 function clean() {
   return del(["./dist/"]);
@@ -30,15 +30,14 @@ function assets() {
 }
 
 function css() {
-  return src(["./src/scss/main.scss"])
-    .pipe(sass())
+  return src(["./src/css/main.css"])
+    .pipe(postcss())
     .pipe(dest("./dist/css/"))
     .pipe(browserSync.stream());
 }
 
 function js() {
   return src([
-    "node_modules/jquery/dist/jquery.min.js",
     "node_modules/parallax-js/dist/parallax.min.js",
     "src/js/**/*.js",
   ])
@@ -49,6 +48,7 @@ function js() {
 const build = series(clean, parallel(pages, assets, css, js));
 
 exports.default = build;
+exports.clean = clean;
 exports.build = build;
 exports.serve = series(build, () => {
   browserSync.init({
@@ -59,6 +59,6 @@ exports.serve = series(build, () => {
   });
   watch("./src/*.html", pages);
   watch("./src/assets/images/**/*", assets);
-  watch("./src/scss/**/*.scss", css);
+  watch("./src/css/**/*.css", css);
   watch("./src/js/**/*.js", js);
 });

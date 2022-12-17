@@ -1,6 +1,6 @@
 # "Under Construction" site
 
-A [beautiful site](https://static.ethanwong.me/under-construction/) for showing "Under Construction".
+A [beautiful site](https://static.ethanwong.me/labs/under-construction/) for showing "Under Construction".
 
 ## Supported Features
 
@@ -14,7 +14,7 @@ A [beautiful site](https://static.ethanwong.me/under-construction/) for showing 
 
 ## Acknowledgements
 
-- [Primer CSS](https://github.com/primer/css)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 - [Parallax.js](https://github.com/wagerfield/parallax)
 

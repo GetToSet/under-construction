@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-term: #000000;
+  --color-link: theme("colors.sky.600");
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --color-term: #ffffff;
+    --color-link: theme("colors.sky.300");
+  }
+}
+
+body {
+  font-size: 14px;
+}
+
+a {
+  color: var(--color-link);
+}
+
+footer p {
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+#splash-title {
+  font-family: "Baloo 2";
+  font-weight: 400 !important;
+}
+
+#splash .term {
+  fill: var(--color-term) !important;
+}

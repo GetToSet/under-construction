@@ -1,19 +1,9 @@
 "use strict";
 
-function updateHeight() {
-  $("body").height(window.innerHeight);
-}
-
-$(function () {
-  $(window).resize(function () {
-    updateHeight();
+const scene = document.querySelector("#splash")
+if (scene) {
+  var _parallaxInstance = new Parallax(scene, {
+    invertX: false,
+    invertY: false,
   });
-  var scene = $("#splash").get(0);
-  if (scene) {
-    var _parallaxInstance = new Parallax(scene, {
-      invertX: false,
-      invertY: false,
-    });
-  }
-  updateHeight();
-});
+}
