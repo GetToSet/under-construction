@@ -59,6 +59,6 @@ exports.serve = series(build, () => {
   });
   watch("./src/*.html", pages);
   watch("./src/assets/images/**/*", assets);
-  watch("./src/css/**/*.css", css);
+  watch(["./src/css/**/*.css", "./src/*.html", "./src/js/**/*.js"], css);
   watch("./src/js/**/*.js", js);
 });

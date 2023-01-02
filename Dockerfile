@@ -1,4 +1,4 @@
-FROM node:12 as gulp_build
+FROM node:14 as gulp_build
 COPY . .
 RUN yarn install && yarn run gulp
 
